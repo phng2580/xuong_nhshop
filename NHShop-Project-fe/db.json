@@ -1,0 +1,92 @@
+{
+    "products": [
+        {
+            "category": "Bàn",
+            "name": "Syltherine",
+            "price": "500",
+            "discount": "20",
+            "image": "https://picsum.photos/id/12/3840/2160",
+            "description": "Bàn đẹp",
+            "featured": true,
+            "id": 1
+        },
+        {
+            "category": "Ghế",
+            "name": "Leviosa",
+            "price": "100",
+            "discount": "10",
+            "image": "https://picsum.photos/id/10/3480/2160",
+            "description": "Ghế đẹp",
+            "featured": true,
+            "id": 2
+        },
+        {
+            "category": "Sofa",
+            "name": "Luxury",
+            "price": "1000",
+            "discount": "10",
+            "image": "https://picsum.photos/id/13/3480/2160",
+            "description": "Sofa đep",
+            "featured": true,
+            "id": 3
+        },
+        {
+            "category": "Bộ",
+            "name": "Bàn ghế",
+            "price": "2000",
+            "image": "https://picsum.photos/id/15/3480/2160",
+            "description": "Bàn ghế đep",
+            "featured": false,
+            "id": 5
+        },
+        {
+            "category": "Bộ",
+            "name": "Bàn ghế 1",
+            "price": "2000",
+            "discount": "10",
+            "image": "https://picsum.photos/id/16/3480/2160",
+            "description": "Bàn ghế đep",
+            "featured": true,
+            "id": 6
+        },
+        {
+            "category": "Bộ",
+            "name": "Bàn ghế",
+            "price": "2000",
+            "discount": "10",
+            "image": "https://picsum.photos/id/17/3480/2160",
+            "description": "Bàn ghế đep",
+            "featured": false,
+            "id": 7
+        }
+    ],
+    "menus": [
+        {
+            "id": "1",
+            "label": "Thống kê",
+            "path": "/admin"
+        },
+        {
+            "id": "2",
+            "label": "Sản phẩm",
+            "path": "/admin/products"
+        },
+        {
+            "id": "3",
+            "label": "Tài khoản",
+            "path": "/admin/users"
+        }
+    ],
+    "users": [
+        {
+            "email": "ngiang1309@gmail.com",
+            "password": "$2a$10$RH.PB.F31aN3PdaZcAHh2uIDUHjsBMHQRTs0HcBF/wxta9d2EhA76",
+            "id": 1
+        },
+        {
+            "email": "member@gmail.com",
+            "password": "$2a$10$nYQMG5kWPU4mH9yvH8kNPOwEGTY672SZgza5wXKccvzU7NDV4CkLO",
+            "id": 2
+        }
+    ]
+}
