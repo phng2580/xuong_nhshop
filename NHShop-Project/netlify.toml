@@ -1,0 +1,22 @@
+[build]
+  # Lệnh build cho frontend
+  command = "npm run build --prefix fe"
+  # Thư mục publish cho frontend
+  publish = "fe/dist"
+
+[functions]
+  # Thư mục chứa các hàm serverless cho backend
+  directory = "be/functions"
+
+[[redirects]]
+  # Redirect API requests đến Netlify Functions (backend)
+  from = "/api/*"
+  to = "/.netlify/functions/server"
+  status = 200
+  force = true
+
+[[redirects]]
+  # Redirect tất cả các yêu cầu khác đến frontend
+  from = "/*"
+  to = "/index.html"
+  status = 200

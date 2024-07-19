@@ -69,7 +69,7 @@ export const signin = async (req, res) => {
       messages: ["Mật khẩu không chính xác"],
     });
   }
-  const token = jwt.sign({ userId: user._id }, "bmp", {
+  const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, {
     expiresIn: "7d",
   });
   return res.status(StatusCodes.OK).json({
